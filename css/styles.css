@@ -208,6 +208,34 @@ Navbar
   -webkit-box-align: center;
   align-items: center;
 }
+.nav-logo {
+  height: 40px; /* Adjust as needed to match original size */
+  width: auto;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(2px 4px 3px rgba(0, 0, 0, 0.2)); /* Optional shadow */
+}
+.nav-logo-text {
+  font-family: 'Brush Script MT', cursive;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0.1rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.black-text {
+  color: #111;
+}
+
+.yellow-text {
+  color: #e0b000;
+}
+
+
+
+
 .nav-btn {
   background: transparent;
   border-color: transparent;
@@ -593,6 +621,7 @@ Projects
 Connect
 ===============
 */
+
 .connect {
   min-height: 40vh;
   position: relative;
@@ -730,6 +759,7 @@ Skills
 .skill-text-80 {
   left: 80%;
 }
+
 /*
 =============== 
 Timeline
