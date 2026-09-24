@@ -1023,7 +1023,9 @@ body {
 }
 
 .nav {
+  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
 }
 
 .hero {
@@ -1032,29 +1034,44 @@ body {
 
 .hero-info h1 {
   text-transform: capitalize;
+  line-height: 1.1;
 }
 
 .hero-info h4 {
   max-width: 40rem;
   line-height: 1.8;
+  font-weight: 500;
+}
+
+.hero-btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+}
+
+.hero-photo {
+  box-shadow: 0 18px 40px rgba(22, 34, 57, 0.2);
 }
 
 .service,
 .single-project {
   box-shadow: var(--light-shadow);
+  border: 1px solid rgba(0, 0, 0, 0.03);
 }
 
 .service:hover {
   transform: translateY(-6px);
+  box-shadow: 0 16px 30px rgba(186, 145, 32, 0.28);
 }
 
 .project,
 .single-project {
   transition: var(--transition);
+  overflow: hidden;
 }
 
 .single-project:hover {
   transform: translateY(-6px);
+  box-shadow: 0 16px 30px rgba(22, 34, 57, 0.16);
 }
 
 .footer p {
@@ -1065,6 +1082,19 @@ body {
 .page-info p {
   font-size: 1rem;
   line-height: 1.9;
+}
+
+.single-page {
+  background: linear-gradient(180deg, #fffefb 0%, #fff9e8 100%);
+}
+
+.projects-hero {
+  background: linear-gradient(120deg, var(--clr-primary-10) 0%, #fff1c8 100%);
+}
+
+.section-title h1,
+.section-title h2 {
+  letter-spacing: 0.12rem;
 }
 
 .value-75 {
